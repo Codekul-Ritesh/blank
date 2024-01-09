@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Footer from './Footer';
+
+
 
 function App() {
   return (
@@ -7,7 +11,7 @@ function App() {
      
      <div className="main-layout">
 
-        {/* <Header /> */}
+        <Header />
 
         <section className="banner_main">
           <div id="myCarousel" className="carousel slide banner" data-ride="carousel">
@@ -199,7 +203,8 @@ function App() {
               <div className="col-md-6">
                 <div className="map_main">
                   <div className="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style={{ border: '0px', width: '100%' }} allowfullscreen=""></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3786.0670966457187!2d73.68084337518849!3d18.389797182678556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDIzJzIzLjMiTiA3M8KwNDEnMDAuMyJF!5e0!3m2!1sen!2sin!4v1704776581146!5m2!1sen!2sin" width="400" height="300" style={{ border: '0px', width: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {/* <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style={{ border: '0px', width: '100%' }} allowfullscreen=""></iframe> */}
                   </div>
                 </div>
               </div>
@@ -207,7 +212,7 @@ function App() {
           </div>
         </div>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
 
 
