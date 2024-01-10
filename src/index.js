@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import Gallary from './Gallary';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Route path='/' element={<App/>}/>
     <Route path='About' element={<About/>}/>
     <Route path='Contact' element={<Contact/>}/>
+    <Route path='Gallary' element={<Gallary/>}/>
 
     </Routes>
   </BrowserRouter>

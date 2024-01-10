@@ -34,7 +34,7 @@ function Header() {
                           <a className="nav-link" href="room.html">Our room</a>
                         </li> */}
                         <li className="nav-item">
-                          <a className="nav-link" href="gallery.html">Gallery</a>
+                          <a className="nav-link" href="Gallary">Gallery</a>
                         </li>
                         {/* <li className="nav-item">
                           <a className="nav-link" href="blog.html">Blog</a>

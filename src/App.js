@@ -22,7 +22,7 @@ function App() {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="first-slide" src="images/banner11.jpeg" alt="First slide" />
+                <img className="first-slide" src="images/Gallary2.jpeg" alt="First slide" />
                 <div className="container">
                 </div>
               </div>
